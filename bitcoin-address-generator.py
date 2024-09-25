@@ -95,8 +95,6 @@ if __name__ == "__main__":
 
     user_input = input("我想要钱包地址以它结尾:")
 
-    with open('example.txt', 'a') as file:
-        file.write('Hello, World!\n')
 
     i = 0
     while(1):
@@ -109,7 +107,4 @@ if __name__ == "__main__":
             print("\r")
             print(current_time + "-钱包地址:" + str)
             print(current_time + "-钱包私钥:" + getWif(randomBytes))
-        #    with open('example.txt', 'a') as file:
-        #        file.writelines(current_time + "-钱包地址:" + str +'\n')
-        #        file.writelines(current_time + "-钱包私钥:" + getWif(randomBytes) + '\n')
          
